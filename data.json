@@ -1,0 +1,55 @@
+{
+    "siteTitle": "Welcome to the Community Center",
+    "author": "Alaa El Mediouri",
+    "description": "A community website for newcomers providing information about the city, private schools, and local resources.",
+    "sections": [
+        {
+            "title": "Welcome to Our Community",
+            "content": "Helping newcomers settle into the city with essential information about the community center, private schools, and other local resources."
+        },
+        {
+            "title": "About This Site",
+            "content": "This website is designed as a resource hub for our community. Whether you're looking for a private school for your children or other local services, you'll find helpful information here."
+        },
+        {
+            "title": "Find a Community Center Near You",
+            "content": "Discover local community centers, their locations, and resources.",
+            "quote": "A strong community is built on shared spaces, open doors, and welcoming hearts.",
+            "link": {
+                "text": "Explore Lexington",
+                "url": "https://www.visitlex.com/things-to-do/"
+            }
+        },
+        {
+            "title": "Things to Do",
+            "links": [
+                {"text": "Explore Things to Do in Lexington", "url": "https://www.visitlex.com/things-to-do/"},
+                {"text": "Take a Tour", "url": "https://www.visitlex.com/things-to-do/tours/"},
+                {"text": "Attractions", "url": "https://www.visitlex.com/things-to-do/attractions/"}
+            ]
+        },
+        {
+            "title": "Hotels",
+            "links": [
+                {"text": "Find Hotels in Lexington", "url": "https://www.visitlex.com/hotels/"},
+                {"text": "Bed and Breakfasts", "url": "https://www.visitlex.com/hotels/bed-and-breakfasts/"}
+            ]
+        },
+        {
+            "title": "Restaurants",
+            "links": [
+                {"text": "Explore Lexington Restaurants", "url": "https://www.visitlex.com/restaurants/"},
+                {"text": "Bourbon Bars", "url": "https://www.visitlex.com/restaurants/bourbon-bars/"},
+                {"text": "Farm to Table Dining", "url": "https://www.visitlex.com/restaurants/farm-to-table/"}
+            ]
+        },
+        {
+            "title": "Upcoming Events Calendar",
+            "content": "Stay up to date with events happening in Lexington.",
+            "link": {
+                "text": "VisitLex Events Calendar",
+                "url": "https://www.visitlex.com/things-to-do/calendar-of-events/"
+            }
+        }
+    ]
+}
