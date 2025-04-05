@@ -9,15 +9,15 @@
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text for maximum contrast */
   padding: 20px;
 }
 
 /* Header styling */
 header {
-  background-color: #3498db;
-  color: #ffffff;
+  background-color: #000000; /* Black header background */
+  color: #ffffff; /* White text */
   padding: 20px 0;
   text-align: center;
 }
@@ -36,13 +36,13 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffffff; /* White links */
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #f1c40f;
+  color: #ffff00; /* Bright yellow on hover for high contrast */
 }
 
 /* Main content area */
@@ -54,13 +54,14 @@ main {
 section {
   margin-bottom: 40px;
   padding: 20px;
-  background-color: #ecf0f1;
+  background-color: #ffffff; /* White background for sections */
+  border: 2px solid #000000; /* Solid black border */
   border-radius: 5px;
 }
 
 section h2 {
   margin-bottom: 15px;
-  color: #2c3e50;
+  color: #000000; /* Black headings */
 }
 
 /* Paragraph styling */
@@ -72,17 +73,18 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  border: 2px solid #000000; /* Black border around images */
   border-radius: 5px;
 }
 
 /* Footer styling */
 footer {
-  background-color: #34495e;
-  color: #ffffff;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
   text-align: center;
   padding: 15px 0;
   margin-top: 20px;
-  border-top: 3px solid #f1c40f;
+  border-top: 3px solid #ffff00; /* Bright yellow top border */
 }
 
 /* Style for resource table */
@@ -94,14 +96,14 @@ footer {
 
 .resource-table th,
 .resource-table td {
-  border: 1px solid #ccc;
+  border: 2px solid #000000; /* Solid black borders */
   padding: 10px;
   text-align: left;
 }
 
 .resource-table th {
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #000000; /* Black background for header cells */
+  color: #ffffff; /* White text */
 }
 
 /* Responsive adjustments */
