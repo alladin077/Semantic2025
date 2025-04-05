@@ -117,3 +117,24 @@ footer {
     padding: 15px;
   }
 }
+
+/* High Contrast Footer Styling */
+footer {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  border-top: 3px solid #ffff00; /* Bright yellow border for emphasis */
+}
+
+footer a {
+  color: #ffff00; /* Bright yellow for the Contact Us link */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffffff; /* White text on hover for contrast */
+  text-decoration: none;
+}
