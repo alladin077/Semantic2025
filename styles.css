@@ -1,3 +1,7 @@
+/* Global font styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
 /* Reset default browser styles */
 * {
   margin: 0;
