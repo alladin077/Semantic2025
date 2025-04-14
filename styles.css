@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 /* Reset default browser styles */
 * {
   margin: 0;
@@ -30,7 +31,7 @@ header h1 {
   margin-bottom: 10px;
 }
 
-/* Navigation styling */
+/* Navigation styling with Button Style */
 nav ul {
   list-style: none;
   display: flex;
@@ -39,14 +40,21 @@ nav ul {
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #ffffff; /* White links */
-  font-weight: bold;
-  transition: color 0.3s ease;
+  background-color: #000000;           /* Black background for high contrast */
+  color: #ffffff;                      /* White text for readability */
+  padding: 10px 20px;                  /* Padding gives a button-like appearance */
+  border: none;                        /* Remove default borders */
+  border-radius: 5px;                  /* Rounded corners */
+  display: inline-block;               /* Maintain proper dimensions */
+  text-decoration: none;               /* Remove underline */
+  font-weight: bold;                   /* Bold text for emphasis */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
 }
 
-nav ul li a:hover {
-  color: #ffff00; /* Bright yellow on hover for high contrast */
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #ffff00;           /* Bright yellow background on hover/focus */
+  color: #000000;                      /* Black text on hover/focus for maximum contrast */
 }
 
 /* Main content area */
