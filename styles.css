@@ -1,152 +1,78 @@
-/* Global font styles */
+/* Google Font */
 body {
     font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Base styles */
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #ffffff; /* White background */
-  color: #000000; /* Black text for maximum contrast */
-  padding: 20px;
-}
-
-/* Header styling */
+/* Header */
 header {
-  background-color: #000000; /* Black header background */
-  color: #ffffff; /* White text */
-  padding: 20px 0;
-  text-align: center;
+    background-color: #005792;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
 }
 
-header h1 {
-  margin-bottom: 10px;
-}
-
-/* Navigation styling with Button Style */
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
 }
 
 nav ul li a {
-  background-color: #000000;           /* Black background for high contrast */
-  color: #ffffff;                      /* White text for readability */
-  padding: 10px 20px;                  /* Padding gives a button-like appearance */
-  border: none;                        /* Remove default borders */
-  border-radius: 5px;                  /* Rounded corners */
-  display: inline-block;               /* Maintain proper dimensions */
-  text-decoration: none;               /* Remove underline */
-  font-weight: bold;                   /* Bold text for emphasis */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-  background-color: #ffff00;           /* Bright yellow background on hover/focus */
-  color: #000000;                      /* Black text on hover/focus for maximum contrast */
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-/* Main content area */
+/* Layout */
 main {
-  margin: 20px 0;
-}
-
-/* Section styling */
-section {
-  margin-bottom: 40px;
-  padding: 20px;
-  background-color: #ffffff; /* White background for sections */
-  border: 2px solid #000000; /* Solid black border */
-  border-radius: 5px;
-}
-
-section h2 {
-  margin-bottom: 15px;
-  color: #000000; /* Black headings */
-}
-
-/* Paragraph styling */
-p {
-  margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 /* Image styling */
-img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #000000; /* Black border around images */
-  border-radius: 5px;
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-/* Footer styling */
-footer {
-  background-color: #000000; /* Black background */
-  color: #ffffff; /* White text */
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 20px;
-  border-top: 3px solid #ffff00; /* Bright yellow top border */
+.centered-image {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Style for resource table */
-.resource-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
+/* Labels for bold text */
+.label {
+    font-weight: bold;
+    color: #222;
 }
 
-.resource-table th,
-.resource-table td {
-  border: 2px solid #000000; /* Solid black borders */
-  padding: 10px;
-  text-align: left;
-}
-
-.resource-table th {
-  background-color: #000000; /* Black background for header cells */
-  color: #ffffff; /* White text */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  nav ul {
+/* Flex container for video */
+.video-container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-  }
-  
-  section {
-    padding: 15px;
-  }
 }
 
-/* High Contrast Footer Styling */
+/* Footer */
 footer {
-  background-color: #000000; /* Black background */
-  color: #ffffff; /* White text */
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 20px;
-  border-top: 3px solid #ffff00; /* Bright yellow border for emphasis */
-}
-
-footer a {
-  color: #ffff00; /* Bright yellow for the Contact Us link */
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-footer a:hover {
-  color: #ffffff; /* White text on hover for contrast */
-  text-decoration: none;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
 }
