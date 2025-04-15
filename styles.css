@@ -157,3 +157,22 @@ footer a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
+/* === FLEXBOX SECTION === */
+
+/* Reusable flex container layout */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Reusable flex items */
+.flex-item {
+  flex: 1 1 300px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
