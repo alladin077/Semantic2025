@@ -1,3 +1,10 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Global font styles */
 body {
   font-family: 'Poppins', sans-serif;
@@ -5,13 +12,6 @@ body {
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
-}
-
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* Header styling */
@@ -31,17 +31,25 @@ header h1 {
 nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  flex: 1 1 auto;
+  text-align: center;
 }
 
 nav ul li a {
   background-color: #000000;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  display: inline-block;
+  display: block;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -55,15 +63,14 @@ nav ul li a:focus {
 
 /* Main content */
 main {
-  margin: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin: 20px 0;
 }
 
 /* Section styling */
 section {
-  margin-bottom: 40px;
   padding: 20px;
   background-color: #ffffff;
   border: 2px solid #000000;
@@ -137,6 +144,44 @@ img {
   color: #ffffff;
 }
 
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffff00;
+  color: #000000;
+}
+
 /* Footer styling */
 footer {
   background-color: #000000;
@@ -156,23 +201,4 @@ footer a {
 footer a:hover {
   color: #ffffff;
   text-decoration: none;
-}
-
-/* === FLEXBOX SECTION === */
-
-/* Reusable flex container layout */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-/* Reusable flex items */
-.flex-item {
-  flex: 1 1 300px;
-  padding: 20px;
-  border: 2px solid #000000;
-  border-radius: 5px;
-  background-color: #ffffff;
 }
